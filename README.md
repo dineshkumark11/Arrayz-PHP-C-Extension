@@ -16,7 +16,7 @@ Download : [arrayz.so](https://github.com/giriannamalai/Arrayz-PHP-C-Extension/r
 
 	Load the extension in php.ini by add the following line at last.
 
-	**extension = array.so**
+	**extension = arrayz.so**
 
 	Restart	your apache/lampp server for the extension to load and create instance by following, 
 
