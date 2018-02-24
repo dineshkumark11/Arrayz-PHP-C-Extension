@@ -6,7 +6,7 @@ Based on zephir.
 Usage Instructions:
 ------------------------
 
-Download : arrayz.so
+Download : [arrayz.so](https://github.com/giriannamalai/Arrayz-PHP-C-Extension/raw/master/arrayz.so)
 
 1. Load the extension and create instance: 
 	
@@ -56,7 +56,7 @@ select_where:
 ------------
 	
       $arrayz($array)->select_where('id,name',['id >' => '90'], TRUE)->limit(2,0)->get();
-            
+
       //Will return the id, name from selected array where id is less than 90
       // And the limit is 2, offset from 0 and TRUE to preserve key.
 	
